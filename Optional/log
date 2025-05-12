@@ -1,0 +1,24 @@
+ESTIMATE of time to complete assignment: 16 hours
+
+Date   Time Started   Time Spent   Work Compeletd
+-----  ------------   -----------  ---------------
+10/13    5:00pm          2:00       Read assignment and tried to understand the spec fully. Later on looked at the starter code and went though it
+10/15    8:00pm          3:00       Went to office hours to get help with understanding the different files for the assignment and where to get started
+10/16    4:00pm          1:00       Wrote most of the functions for track.c file
+10/18    10:00pm         2:00       Got help in office hours to debug track_merge_segments and also understanding the function track_heatmap functionality.
+10/19     9:00pm         2:00       Figured out how to wrap around the longitudes when crossing -180/180 point.
+10/20     9:00pm         2:00       Implemented heatmap.c file
+
+                        ------
+                         12:00      TOTAL time spent
+
+
+
+DISCUSSION
+
+This assignment was challenging due to the need to manage complex logic, memory, and edge cases. Handling longitude wrapping, 
+especially across the -180/180 boundary, was particularly tricky and required careful thinking to ensure correct boundaries. Implementing 
+track_merge_segments and parsing input data with multiple segments also posed difficulties, as both demanded precise memory management 
+and debugging. Working with Valgrind for the first time to resolve memory-related errors was a learning curve, but it improved my debugging 
+skills. Overall, the assignment reinforced the importance of careful planning, systematic testing, and proper memory management, 
+providing a deeper understanding of C programming and dynamic data structures.

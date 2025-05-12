@@ -1,0 +1,9 @@
+==1867248== 504 bytes in 21 blocks are definitely lost in loss record 1 of 1
+==1867248==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1867248==    by 0x10CE73: trackpoint_create (trackpoint.c:15)
+==1867248==    by 0x10CEEB: trackpoint_copy (trackpoint.c:32)
+==1867248==    by 0x10C252: segment_add_point (track.c:381)
+==1867248==    by 0x10B5BD: track_add_point (track.c:184)
+==1867248==    by 0x10ADEB: heatmap (track_unit.c:697)
+==1867248==    by 0x1094AD: main (track_unit.c:92)
+==1867248== 
